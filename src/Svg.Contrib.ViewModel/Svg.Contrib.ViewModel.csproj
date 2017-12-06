@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LICENSE" />
     <None Include="packages.config" />
     <None Include="Svg.Contrib.ViewModel.nuspec" />
     <None Include="ViewModelGenerator.cs">
@@ -53,9 +52,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="assets\icon.png" />
+    <Content Include="assets\label.svg" />
+    <Content Include="assets\noun_7266_cc.png" />
+    <Content Include="assets\screenshot1.PNG" />
+    <Content Include="assets\screenshot2.PNG" />
     <Content Include="ViewModelGenerator.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ViewModelGenerator.cs</LastGenOutput>

@@ -59,10 +59,12 @@
     <Compile Include="SvgUnitReader.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="LICENSE" />
     <None Include="Svg.Contrib.Render.nuspec" />
     <None Include="packages.config" />
-    <EmbeddedResource Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\icon.png" />
+    <Content Include="assets\noun_321865_cc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

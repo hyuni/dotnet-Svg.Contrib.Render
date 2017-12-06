@@ -60,16 +60,19 @@
     <Compile Include="ZplTransformer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="LICENSE" />
+    <None Include="assets\ZPLII-Prog.pdf" />
     <None Include="Svg.Contrib.Render.ZPL.nuspec" />
     <None Include="packages.config" />
-    <EmbeddedResource Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Svg.Contrib.Render\Svg.Contrib.Render.csproj">
       <Project>{f5bacb04-0644-40a0-b93e-7c285caf78ae}</Project>
       <Name>Svg.Contrib.Render</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\icon.png" />
+    <Content Include="assets\noun_201040_cc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
